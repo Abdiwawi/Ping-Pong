@@ -1,5 +1,12 @@
 .header{
   text-align: center;
-  margin-top: 20px;
   background-color: lightgrey;
+  background-image: url("../img/ping pong.jpg");
+  height: 200px;
+  color: white;
+}
+}
+.about{
+  text-align: left;
+  background-color:
 }
