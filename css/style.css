@@ -1,12 +1,15 @@
 .header{
+  background-color: blue;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.welcome{
   text-align: center;
-  background-color: lightgrey;
-  background-image: url("../img/ping pong.jpg");
-  height: 200px;
-  color: white;
+  margin-top: 200px;
+  font-size: 20px;
 }
-}
-.about{
-  text-align: left;
-  background-color:
+.button{
+  text-align: center;
+  margin-top: 50px;
 }
