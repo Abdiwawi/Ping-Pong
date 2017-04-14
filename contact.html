@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link href="css/bootstrap.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <title>Ping Pong</title>
 </head>
 <body>
   <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+    <a href="#">"About"
+      <p></p>
+      <h1>Created by :</h1>
+      <br>
+      <p>"This game was created by<strong>Abdilahi Jama</strong></p>"
+      <br>
+    </a>
   </div>
+
   <h1><strong>Ping Pong</strong></h1>
   <p>Click on the element below to open the side navigation menu.</p>
-  <span class="hburger">Open</span>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <i class="fa fa-bars" aria-hidden="true"></i>
 <script src="js/script.js">
 </body>

@@ -13,7 +13,6 @@
   text-align: center;
   margin-top: 50px;
 }
-
 /*This is where the sidenav starts*/
 .sidenav {
     height: 100%;
@@ -48,10 +47,11 @@
     font-size: 36px;
     margin-left: 50px;
 }
-.hburger{
-  font-size:30px;
-  cursor:pointer"onclick="openNav()">&#9776;
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
+
 h2{
   text-align: center;
 }
