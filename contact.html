@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
-  <title>Ping Pong</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
 </head>
 <body>
 
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">
+    About
+    <p></p>
+    <br>
+    <h2>This game was created by<strong>Abdilahi Jama</strong></h2>
+    <br>
+    Enjoy
+    <p></p>
+  </a>
+</div>
+<span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
-<script src="js/script.js">
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
 </body>
+</html>
