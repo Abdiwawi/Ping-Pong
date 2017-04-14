@@ -13,6 +13,7 @@
   text-align: center;
   margin-top: 50px;
 }
+/*This is where the styling of the navbar starts*/
 .sidenav {
     height: 100%;
     width: 0;
@@ -49,4 +50,10 @@
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+/*This si where the styling of the navbar ends*/
+
+/*This where the rest of the page is styled*/
+#main{
+  margin-left: 350px;
 }
