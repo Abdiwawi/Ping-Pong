@@ -8,30 +8,26 @@
   crossorigin="anonymous"></script>
 </head>
 <body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">
+      About
+      <p></p>
+      <br>
+      <h2>This game was created by<strong>Abdilahi Jama</strong></h2>
+      <br>
+      Enjoy
+      <p></p>
+    </a>
+  </div>
+  <div id="main">
+    <div class="container">
 
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">
-    About
-    <p></p>
-    <br>
-    <h2>This game was created by<strong>Abdilahi Jama</strong></h2>
-    <br>
-    Enjoy
-    <p></p>
-  </a>
-</div>
-<span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-</script>
+  <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 </html>
