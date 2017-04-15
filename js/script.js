@@ -12,3 +12,13 @@ $(document).ready(function() {
       event.preventDefault();
     var entryInput = $("input#entry1") .val();
     var list = $("div.output.ul");
+  });
+});
+function pingPongtext(number){
+ var arrayinput = []
+ for(var i = 1; i <= number; i++){
+   if(i % 15 === 0:
+   return "PingPong")
+ }
+
+}
