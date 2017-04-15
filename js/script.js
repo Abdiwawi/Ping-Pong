@@ -9,5 +9,6 @@ function closeNav() {
 }
 $(document).ready(function() {
     $("#blanks form").submit(function(event) {
+      event.preventDefault();
     var entryInput = $("input#entry1") .val();
-    
+    var list = $("div.output.ul");
