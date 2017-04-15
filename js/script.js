@@ -10,9 +10,12 @@ function closeNav() {
 $(document).ready(function() {
     $("#blanks form").submit(function(event) {
       event.preventDefault();
-    var entryInput = $("input#entry1") .val();
+    var entry1input = $("input#entry1") .val();
     var list = $("div.output.ul");
     list.empty();
+    for(var i = 1; i <= entry1input; i++){
+      list.append(`<li>${pingPongtext(i)}</li>`);
+    }
   });
 });
 function pingPongtext(number){
@@ -25,5 +28,6 @@ function pingPongtext(number){
       return"Ping!";
     default:
       return number;
-
-  })
+    }
+  }
+})
