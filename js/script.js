@@ -7,6 +7,8 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 /*End of Sidenav script here*/
+
+
 /*Start of a new function*/
 $(document).ready(function() {
     $("#blanks form").submit(function(event) { /*referencing of the html form*/
@@ -31,3 +33,4 @@ function pingPongtext(number){ /*Declared a function */
       return number;
   }
 }
+/*End of function code*/
