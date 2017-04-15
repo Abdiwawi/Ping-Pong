@@ -1,18 +1,22 @@
 /*Index.html styling starts here*/
 .header{
-  background-color: blue;/*The header starts here*/
-  position: absolute;
-  height: 100%;
-  width: 1351.25px;
-}
+ margin: 0;
+ padding: 0;
+ background-color: #897777;
+ height: 800px;;
+ width: 1338px;
+ background-size: cover;
+ }
 .welcome{
   text-align: center;
   margin-top: 200px;
   font-size: 20px;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 .button{
   text-align: center;
   margin-top: 50px;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 /*Styling of index.html ends here*/
 /*Styliing of contact.html*/
@@ -56,7 +60,4 @@
 }
 /*This si where the styling of the navbar ends*/
 
-/*This where the rest of the page is styled*/
-#main{
-  /*padding-left: 250px;*/
-}
+/*Styling of contact.html ends here*/
