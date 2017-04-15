@@ -12,13 +12,18 @@ $(document).ready(function() {
       event.preventDefault();
     var entryInput = $("input#entry1") .val();
     var list = $("div.output.ul");
+    list.empty();
   });
 });
 function pingPongtext(number){
- var arrayinput = []
- for(var i = 1; i <= number; i++){
-   if(i % 15 === 0:
-   return "PingPong")
- }
+  (switch (true) {
+    case (number % 15) === 0:
+      return "PingPong!";
+    case(number % 5) === 0:
+      return"Pong!";
+    case (number % 3) === 0:
+      return"Ping!";
+    default:
+      return number;
 
-}
+  })
