@@ -7,9 +7,6 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
-function myNumber(){
-  var form = document.getElementById('blanks');
-  var form2 = document.getElementById('entry1')
-
-  form.innerHTML = "form" + entry1.value
-}
+$(document).ready(function() {
+        $("#blanks form").submit(function(event) {
+          var entry1Input = $("input#entry1") .val(); 
