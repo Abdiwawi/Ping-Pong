@@ -8,5 +8,6 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 $(document).ready(function() {
-        $("#blanks form").submit(function(event) {
-          var entry1Input = $("input#entry1") .val(); 
+    $("#blanks form").submit(function(event) {
+    var entryInput = $("input#entry1") .val();
+    
