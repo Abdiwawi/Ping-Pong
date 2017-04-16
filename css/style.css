@@ -1,14 +1,14 @@
 body{
 margin: 0;
+height: 100%;
 }
 /*Index.html styling starts here*/
 .header{
  margin: 0;
  padding: 0;
  background-color: #897777;
- height: 700px;;
- width: 1338px;
- background-image: url("../img/images.jpg");
+ height: 700px;
+ width: 100%;
  background-size: cover;
  display: block;
  clear: both;
