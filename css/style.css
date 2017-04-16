@@ -59,5 +59,7 @@
   .sidenav a {font-size: 18px;}
 }
 /*This si where the styling of the navbar ends*/
-
+.row h1{
+  font-size: 50px;
+}
 /*Styling of contact.html ends here*/
