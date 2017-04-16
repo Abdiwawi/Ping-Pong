@@ -6,4 +6,11 @@ For example: <br>If a user keys in a number divisible by :<br>(a)3 with a %(modu
                                                      <br>(c)15 with a %(modulo) of zero it returns PingPong!
                                                      <br>(d)it shows numbers as usual.
 The rules are as simple as that.
-#Contirubutor
+# Content
+It has two pages:<br>
+
+
+
+
+# License
+Copyright (c) 2017 Abdilahi Jama
