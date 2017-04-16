@@ -17,3 +17,14 @@
 [0413/203635.798:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp\reports: Access is denied. (0x5)
 [0413/203635.908:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
 [0413/203636.311:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0415/142511.685:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp\reports: Access is denied. (0x5)
+[0415/142512.158:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp\reports: Access is denied. (0x5)
+[0415/142512.167:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0415/142512.411:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0416/001949.167:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp\reports: Access is denied. (0x5)
+[0416/001949.450:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0416/001950.008:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0416/174343.433:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp\reports: Access is denied. (0x5)
+[0416/174343.782:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp\reports: Access is denied. (0x5)
+[0416/174343.787:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0416/174344.551:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
