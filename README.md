@@ -7,8 +7,8 @@ For example: <br>If a user keys in a number divisible by :<br>(a)3 with a %(modu
                                                      <br>(d)it shows numbers as usual.
 The rules are as simple as that.
 # Content
-It has two pages:   1.Home page
-                    2.Game page
+It has two pages:   <br>1.Home page
+                    <br> 2.Game page
 
 # Specifications
 It can count up to the provided number.
