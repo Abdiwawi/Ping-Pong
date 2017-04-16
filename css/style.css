@@ -20,6 +20,10 @@ margin: 0;
   font-family: 'Gloria Hallelujah', cursive;
   font-weight: bold;
 }
+.welcome h2{
+  font-size: 40px;
+  font-weight: bold;
+}
 .button{
   text-align: center;
   margin-top: 50px;
