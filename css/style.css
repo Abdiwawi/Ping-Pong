@@ -16,13 +16,16 @@ height: 100%;
 .welcome{
   text-align: center;
   margin-top: 200px;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Gloria Hallelujah', cursive;
   font-weight: bold;
 }
 .welcome h2{
   font-size: 40px;
   font-weight: bold;
+}
+.welcome img{
+  height: 100px;
 }
 .button{
   text-align: center;
