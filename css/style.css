@@ -1,3 +1,6 @@
+body{
+margin: 0;
+}
 /*Index.html styling starts here*/
 .header{
  margin: 0;
@@ -5,13 +8,17 @@
  background-color: #897777;
  height: 700px;;
  width: 1338px;
+ background-image: url("../img/images.jpg");
  background-size: cover;
+ display: block;
+ clear: both;
  }
 .welcome{
   text-align: center;
   margin-top: 200px;
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'Gloria Hallelujah', cursive;
+  font-weight: bold;
 }
 .button{
   text-align: center;
